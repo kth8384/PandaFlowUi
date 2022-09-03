@@ -5,7 +5,7 @@
         <SvgIcon name="elementMessageBox"/>保存
       </el-button>
     </el-button-group>
-    <el-button-group class="ml-4">
+    <el-button-group class="ml4">
       <el-dropdown split-button>
           导入
           <template #dropdown>
@@ -24,7 +24,7 @@
           </template>
       </el-dropdown>
     </el-button-group>
-    <el-button-group class="ml-4" >
+    <el-button-group class="ml4" >
       <el-button :disabled="undoDisable" @click="undo">
         <SvgIcon name="elementCaretLeft"/>
       </el-button>
@@ -32,7 +32,7 @@
         <SvgIcon name="elementCaretRight"/>
       </el-button>
     </el-button-group>
-    <el-button-group class="ml-4">
+    <el-button-group class="ml4">
       <el-button  @click="zoomOut">
         <SvgIcon name="elementZoomOut"/>
       </el-button>
@@ -58,7 +58,7 @@
         </el-button>
       </el-tooltip>
     </el-button-group>
-    <el-button-group class="ml-4">
+    <el-button-group class="ml4">
       <el-tooltip
               class="box-item"
               effect="dark"

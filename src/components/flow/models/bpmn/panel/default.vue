@@ -13,7 +13,7 @@
 
 <script setup lang="ts">
 import { usePropertiesPanelData } from '../../../useapi';
-import { ref } from 'vue';
+import { ref} from 'vue';
 import './style.css';
 
 const data = usePropertiesPanelData()
