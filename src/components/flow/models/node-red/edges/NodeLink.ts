@@ -1,6 +1,6 @@
 import { BezierEdge, BezierEdgeModel } from "@logicflow/core";
 
-class FlowLinkModel extends BezierEdgeModel {
+class NodeLinkModel extends BezierEdgeModel {
   getEdgeStyle() {
     const style = super.getEdgeStyle();
     style.strokeWidth = 3;
@@ -8,10 +8,10 @@ class FlowLinkModel extends BezierEdgeModel {
     return style;
   }
 }
-class FlowLink extends BezierEdge {}
+class NodeLink extends BezierEdge {}
 
 export default {
-  type: 'flow-link',
-  view: FlowLink,
-  model: FlowLinkModel
+  type: 'node-link',
+  view: NodeLink,
+  model: NodeLinkModel
 }
